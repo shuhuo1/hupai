@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>桃花源唬牌 — 隐私政策 & 用户协议</title>
+<style>
+  :root {
+    --bg: #172f34;
+    --card: #fff4dc;
+    --ink: #2d261f;
+    --muted: #7a6d5b;
+    --gold: #d8a03c;
+    --green: #2f8a62;
+    --blue: #2e6f91;
+    --lilac: #8b6dd8;
+    --white: #fffaf0;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.8;
+    min-height: 100vh;
+  }
+  .hero {
+    background: linear-gradient(135deg, #1f5d56 0%, #172f34 100%);
+    padding: 32px 20px 24px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 28px;
+    color: var(--white);
+    margin-bottom: 6px;
+    letter-spacing: 2px;
+  }
+  .hero p {
+    color: #b8d4c8;
+    font-size: 14px;
+  }
+  .tabs {
+    display: flex;
+    background: #1a3a36;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .tab {
+    flex: 1;
+    padding: 14px 0;
+    text-align: center;
+    color: #8a9d94;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: all .2s;
+    user-select: none;
+  }
+  .tab.active {
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+  }
+  .content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 24px 20px 40px;
+  }
+  .card {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 28px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 12px rgba(0,0,0,.2);
+  }
+  .card h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #1a4a3a;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e0d4b8;
+  }
+  .card h3 {
+    font-size: 16px;
+    margin: 18px 0 8px;
+    color: #2a5a4a;
+  }
+  .card p, .card li {
+    font-size: 14px;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+  .card ul {
+    padding-left: 20px;
+    margin-bottom: 12px;
+  }
+  .card li {
+    margin-bottom: 5px;
+  }
+  .highlight {
+    background: #fff8e8;
+    border-left: 4px solid var(--gold);
+    padding: 12px 16px;
+    border-radius: 0 6px 6px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .footer {
+    text-align: center;
+    padding: 20px;
+    color: #7a8d84;
+    font-size: 12px;
+  }
+  .footer a {
+    color: #a0c4b0;
+    text-decoration: none;
+  }
+  .hidden { display: none; }
+  .last-updated {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 12px;
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>🌸 桃花源唬牌</h1>
+  <p>轻松休闲的策略猜牌小游戏</p>
+</div>
+
+<div class="tabs">
+  <div class="tab active" onclick="switchTab('privacy')" id="tab-privacy">隐私政策</div>
+  <div class="tab" onclick="switchTab('agreement')" id="tab-agreement">用户协议</div>
+</div>
+
+<div class="content">
+
+  <!-- ========== 隐私政策 ========== -->
+  <div id="section-privacy">
+
+    <div class="card">
+      <h2>隐私政策</h2>
+      <p class="last-updated">最后更新：2026 年 7 月 6 日</p>
+
+      <p>桃花源唬牌（以下简称"本游戏"）尊重并保护所有用户的个人信息与隐私。本隐私政策详细说明了我们如何收集、使用、存储和保护你的信息。请你仔细阅读。</p>
+    </div>
+
+    <div class="card">
+      <h3>一、我们收集的信息</h3>
+
+      <p>为了提供账号识别、游戏匹配、战绩记录和积分功能，我们可能会在你授权后收集以下信息：</p>
+      <ul>
+        <li><strong>微信登录标识（OpenID）</strong>：用于识别你的账号身份，保障游戏数据与你的账号关联。</li>
+        <li><strong>微信昵称与头像</strong>：用于在游戏中展示你的玩家身份，仅在你主动授权后获取。</li>
+        <li><strong>游戏内数据</strong>：包括积分、胜场、胜率、段位分、对局战绩、设置偏好（音乐/音效/语音/震动开关）和每日登录领取记录。</li>
+        <li><strong>对局日志</strong>：包括出牌记录、质疑记录、结算数据，用于对局回放、异常排查和安全风控。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>二、信息的使用</h3>
+
+      <p>我们收集的信息仅用于以下目的：</p>
+      <ul>
+        <li><strong>账号识别</strong>：将你的游戏进度、积分和设置与你的微信账号关联。</li>
+        <li><strong>对局结算</strong>：计算胜负、积分变化和段位分更新。</li>
+        <li><strong>体验优化</strong>：分析对局数据以优化机器人 AI 难度和游戏平衡。</li>
+        <li><strong>异常排查</strong>：在出现结算异常、掉线或可疑行为时进行排查和处理。</li>
+        <li><strong>安全风控</strong>：识别和防止作弊、外挂、刷分等违规行为。</li>
+      </ul>
+
+      <div class="highlight">
+        <strong>重要提示：</strong>本游戏积分仅为虚拟成长数值，不具备任何现金价值，不支持真实货币下注、提现或任何形式的赌博用途。我们不收集任何支付信息或真实身份信息。
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>三、信息的存储与保护</h3>
+      <ul>
+        <li>游戏设置、积分和对局记录存储在微信小游戏的本地缓存中，仅你本人可访问。</li>
+        <li>微信登录标识在加密后传输到我们的服务器（正式上线后），用于跨设备同步和数据恢复。</li>
+        <li>我们采用行业标准的加密和安全措施保护你的数据，防止未经授权的访问、修改或泄露。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>四、第三方服务</h3>
+      <ul>
+        <li>本游戏基于微信平台运行，所有数据传输遵循微信平台的隐私保护规范。</li>
+        <li>如后续接入广告、支付或客服能力，我们将按微信平台要求补充相关第三方 SDK 说明、广告奖励规则、订单记录和未成年人保护说明，并更新本隐私政策。</li>
+        <li>我们不会将你的个人信息出售、转让或分享给任何第三方，法律要求的情形除外。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>五、你的权利</h3>
+      <ul>
+        <li><strong>访问与更正</strong>：你可以在游戏设置中查看和修改昵称、头像和设置偏好。</li>
+        <li><strong>关闭授权</strong>：你可以在微信「设置 → 个人信息与权限 → 授权管理」中随时取消本游戏的授权。</li>
+        <li><strong>数据删除</strong>：如需删除你的游戏数据和账号信息，请通过客服反馈入口联系我们，我们将在 15 个工作日内处理。</li>
+        <li><strong>关闭功能</strong>：你可以在游戏设置中随时关闭音乐、音效、语音和震动功能。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>六、未成年人保护</h3>
+      <ul>
+        <li>本游戏面向所有年龄段的用户，但特别关注对未成年人个人信息的保护。</li>
+        <li>如果你是 14 周岁以下的儿童，请在监护人陪同下使用本游戏并阅读本隐私政策。</li>
+        <li>如我们发现在未获得监护人同意的情况下收集了未成年人的个人信息，将尽快删除相关数据。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>七、政策更新</h3>
+      <p>我们可能会不时更新本隐私政策。更新后的政策将在游戏内公告并更新生效日期。你继续使用本游戏即表示同意更新后的政策。</p>
+    </div>
+
+    <div class="card">
+      <h3>八、联系我们</h3>
+      <p>如果你对本隐私政策有任何疑问、意见或建议，请通过游戏内「设置 → 客服反馈」与我们联系。</p>
+    </div>
+
+  </div>
+
+  <!-- ========== 用户协议 ========== -->
+  <div id="section-agreement" class="hidden">
+
+    <div class="card">
+      <h2>用户协议</h2>
+      <p class="last-updated">最后更新：2026 年 7 月 6 日</p>
+
+      <p>欢迎使用桃花源唬牌！请你仔细阅读本用户协议。使用本游戏即表示你同意本协议的全部条款。如果你不同意，请不要使用本游戏。</p>
+    </div>
+
+    <div class="card">
+      <h3>一、服务说明</h3>
+      <ul>
+        <li>桃花源唬牌是一款基于微信平台的休闲策略猜牌小游戏，玩家通过出牌、跟牌、质疑和跳过进行策略博弈。</li>
+        <li>游戏内积分为虚拟成长数值，仅用于门票消耗、结算奖励和段位展示。</li>
+        <li><strong>本游戏不支持真实货币下注、提现、兑换或任何形式的赌博行为。</strong></li>
+        <li>游戏支持经典场（3/4/5 人）、排位场（3 人竞技）和双副牌场（4/8 人），可通过匹配或邀请好友进入对局。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>二、用户行为规范</h3>
+      <ul>
+        <li>请遵守中华人民共和国法律法规和微信平台的用户规则。</li>
+        <li>使用健康、友善的昵称和头像，不得包含违法、暴力、色情、歧视或恶意攻击内容。</li>
+        <li>严禁使用外挂、脚本、抓包、修改客户端、本地缓存篡改或任何其他方式作弊、刷分、干扰匹配或破坏对局公平性。</li>
+        <li>排位场以公平竞技为目标。频繁逃跑、恶意拖延对局、异常结算或其他破坏体验的行为，将影响段位分并可能受到风控处罚。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>三、积分与段位</h3>
+      <ul>
+        <li>每日首次登录自动获赠 500 积分。参与匹配对局消耗 100 积分作为门票，好友邀请局免费。</li>
+        <li>获胜可获得奖池积分，失败仅损失门票积分。</li>
+        <li>排位场根据胜负调整段位分。积分为虚拟数值，不具备现金价值，不支持转让、提现或线下交易。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>四、知识产权</h3>
+      <ul>
+        <li>桃花源唬牌的游戏设计、代码、美术素材、音频资源和品牌标识的所有知识产权归开发者所有，受法律保护。</li>
+        <li>未经书面许可，任何人不得复制、修改、反向工程、分发或商业利用本游戏的任何部分。</li>
+        <li>用户在游戏中使用的昵称和头像归用户本人所有。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>五、免责声明</h3>
+      <ul>
+        <li>本游戏按"现状"提供，开发者不保证游戏服务完全无中断或无错误。</li>
+        <li>因微信平台系统维护、网络故障、设备兼容性或不可抗力导致的游戏中断，开发者不承担责任。</li>
+        <li>因用户自身操作不当、设备问题或网络环境导致的游戏体验问题，开发者提供合理的客服支持但不承担赔偿责任。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>六、违规处理</h3>
+      <ul>
+        <li>如发现作弊、刷分或破坏对局的行为，我们有权重置相关账号的积分和段位。</li>
+        <li>严重违规者将被永久禁止使用本游戏，并可能被报告至微信平台。</li>
+        <li>如发现本地数据异常（积分、战绩与服务器记录严重不符），我们有权修正为真实值。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>七、协议修改</h3>
+      <p>我们保留适时修改本用户协议的权利。修改后的协议将在游戏内公告并更新生效日期。你继续使用本游戏即表示接受修改后的协议。</p>
+    </div>
+
+    <div class="card">
+      <h3>八、联系我们</h3>
+      <p>如发现异常结算、恶意行为、账号问题或有任何意见反馈，请通过游戏内「设置 → 客服反馈」与我们联系。</p>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="footer">
+  <p>桃花源唬牌 &copy; 2026</p>
+  <p>轻松休闲的策略猜牌小游戏</p>
+</div>
+
+<script>
+function switchTab(tab) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-' + tab).classList.add('active');
+  document.getElementById('section-privacy').classList.add('hidden');
+  document.getElementById('section-agreement').classList.add('hidden');
+  document.getElementById('section-' + tab).classList.remove('hidden');
+}
+</script>
+
+</body>
+</html>
